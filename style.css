@@ -1,13 +1,3 @@
-/*
-COLOR PALETTE
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-*/
-
-
 /* Global styles
 ------------------------------------*/
 html {
@@ -16,31 +6,45 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+:root {
+   --blue: #b8c0ff;
+   --bluepurple: #c0bbff;
+   --purple: #c8b6ff;
+   --lavender: #d8beff;
+   --lightpurple: #e7c6ff;
+}
 body {
-  background-color: #C8B6FF;
   color: whitesmoke;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
   line-height: 1.5;
 }
+
+header {
+  background-color: var(--blue);
+}
+
 img {
   width: 300px;
 }
 a:hover {
   text-decoration: none;
 }
+
 h1 {
   font-size: 100px;
   line-height: 1;
 }
 h2 {
-  font-size: 45px;
+  font-size: 55px;
 }
+
 h1, h2 {
-  font-family: 'Caveat', cursive;
-  font-weight: 400;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   margin: 0;
 }
 .content-wrap {
@@ -58,26 +62,28 @@ h1, h2 {
 
 /* Projects
 ------------------------------------*/
-section {
-  background-color: #E7C6FF;
-  color: whitesmoke;
+.projects {
+  background-color: var(--bluepurple);
 }
 
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience {
+  background-color: var(--purple);
+}
 
 
 /* Education
 ------------------------------------*/
-
+.education {
+  background-color: var(--lavender);
+}
 
 
 /* Contact Info
 ------------------------------------*/
 footer {
-  background-color: #FFD6FF;
-  color: whitesmoke;
+  background-color: var(--lightpurple);
 }
