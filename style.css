@@ -66,6 +66,10 @@ h1, h2 {
   background-color: var(--bluepurple);
 }
 
+.hobby-list > li > a {
+  color: whitesmoke;
+}
+
 
 
 /* Work Experience
@@ -86,4 +90,8 @@ h1, h2 {
 ------------------------------------*/
 footer {
   background-color: var(--lightpurple);
+}
+
+.contact-list > li > a{
+  color: gray;
 }
